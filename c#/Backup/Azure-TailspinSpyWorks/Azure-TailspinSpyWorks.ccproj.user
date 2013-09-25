@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <DeploymentBuildOnly>False</DeploymentBuildOnly>
+    <DeploymentAccountName>Online Store</DeploymentAccountName>
+    <DeploymentHostedService>tailpin</DeploymentHostedService>
+    <DeploymentHostedServiceLabel>Online Store</DeploymentHostedServiceLabel>
+    <DeploymentSlot>Production</DeploymentSlot>
+    <DeploymentIncludeIntellitrace>False</DeploymentIncludeIntellitrace>
+    <DeploymentEnableWebDeploy>False</DeploymentEnableWebDeploy>
+    <DeploymentStorageService>faizal</DeploymentStorageService>
+    <DeploymentStorageServiceLabel>faizal</DeploymentStorageServiceLabel>
+    <DeploymentLabel>Azure-TailspinSpyWorks - 13/7/2011 2:55:04 PM</DeploymentLabel>
+    <DeploymentPromptBeforeDeleting>True</DeploymentPromptBeforeDeleting>
+    <DeploymentIsExpanded>False</DeploymentIsExpanded>
+  </PropertyGroup>
+</Project>
