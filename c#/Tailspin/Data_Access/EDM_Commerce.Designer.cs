@@ -349,7 +349,7 @@ namespace Tailspin.Data_Access
 
         #endregion
 
-        #region Primitive Properties
+        #region Simple Properties
     
         /// <summary>
         /// No Metadata Documentation available.
@@ -368,7 +368,7 @@ namespace Tailspin.Data_Access
                 {
                     OnCategoryIDChanging(value);
                     ReportPropertyChanging("CategoryID");
-                    _CategoryID = StructuralObject.SetValidValue(value);
+                    _CategoryID = StructuralObject.SetValidValue(value, "CategoryID");
                     ReportPropertyChanged("CategoryID");
                     OnCategoryIDChanged();
                 }
@@ -393,7 +393,7 @@ namespace Tailspin.Data_Access
             {
                 OnCategoryNameChanging(value);
                 ReportPropertyChanging("CategoryName");
-                _CategoryName = StructuralObject.SetValidValue(value, true);
+                _CategoryName = StructuralObject.SetValidValue(value, true, "CategoryName");
                 ReportPropertyChanged("CategoryName");
                 OnCategoryNameChanged();
             }
@@ -404,7 +404,6 @@ namespace Tailspin.Data_Access
 
         #endregion
 
-    
         #region Navigation Properties
     
         /// <summary>
@@ -462,7 +461,7 @@ namespace Tailspin.Data_Access
 
         #endregion
 
-        #region Primitive Properties
+        #region Simple Properties
     
         /// <summary>
         /// No Metadata Documentation available.
@@ -481,7 +480,7 @@ namespace Tailspin.Data_Access
                 {
                     OnOrderIDChanging(value);
                     ReportPropertyChanging("OrderID");
-                    _OrderID = StructuralObject.SetValidValue(value);
+                    _OrderID = StructuralObject.SetValidValue(value, "OrderID");
                     ReportPropertyChanged("OrderID");
                     OnOrderIDChanged();
                 }
@@ -506,7 +505,7 @@ namespace Tailspin.Data_Access
             {
                 OnCustomerNameChanging(value);
                 ReportPropertyChanging("CustomerName");
-                _CustomerName = StructuralObject.SetValidValue(value, false);
+                _CustomerName = StructuralObject.SetValidValue(value, false, "CustomerName");
                 ReportPropertyChanged("CustomerName");
                 OnCustomerNameChanged();
             }
@@ -530,7 +529,7 @@ namespace Tailspin.Data_Access
             {
                 OnOrderDateChanging(value);
                 ReportPropertyChanging("OrderDate");
-                _OrderDate = StructuralObject.SetValidValue(value);
+                _OrderDate = StructuralObject.SetValidValue(value, "OrderDate");
                 ReportPropertyChanged("OrderDate");
                 OnOrderDateChanged();
             }
@@ -554,7 +553,7 @@ namespace Tailspin.Data_Access
             {
                 OnShipDateChanging(value);
                 ReportPropertyChanging("ShipDate");
-                _ShipDate = StructuralObject.SetValidValue(value);
+                _ShipDate = StructuralObject.SetValidValue(value, "ShipDate");
                 ReportPropertyChanged("ShipDate");
                 OnShipDateChanged();
             }
@@ -565,7 +564,6 @@ namespace Tailspin.Data_Access
 
         #endregion
 
-    
         #region Navigation Properties
     
         /// <summary>
@@ -617,7 +615,7 @@ namespace Tailspin.Data_Access
 
         #endregion
 
-        #region Primitive Properties
+        #region Simple Properties
     
         /// <summary>
         /// No Metadata Documentation available.
@@ -636,7 +634,7 @@ namespace Tailspin.Data_Access
                 {
                     OnIdChanging(value);
                     ReportPropertyChanging("Id");
-                    _Id = StructuralObject.SetValidValue(value);
+                    _Id = StructuralObject.SetValidValue(value, "Id");
                     ReportPropertyChanged("Id");
                     OnIdChanged();
                 }
@@ -661,7 +659,7 @@ namespace Tailspin.Data_Access
             {
                 OnOrderIDChanging(value);
                 ReportPropertyChanging("OrderID");
-                _OrderID = StructuralObject.SetValidValue(value);
+                _OrderID = StructuralObject.SetValidValue(value, "OrderID");
                 ReportPropertyChanged("OrderID");
                 OnOrderIDChanged();
             }
@@ -685,7 +683,7 @@ namespace Tailspin.Data_Access
             {
                 OnProductIDChanging(value);
                 ReportPropertyChanging("ProductID");
-                _ProductID = StructuralObject.SetValidValue(value);
+                _ProductID = StructuralObject.SetValidValue(value, "ProductID");
                 ReportPropertyChanged("ProductID");
                 OnProductIDChanged();
             }
@@ -709,7 +707,7 @@ namespace Tailspin.Data_Access
             {
                 OnQuantityChanging(value);
                 ReportPropertyChanging("Quantity");
-                _Quantity = StructuralObject.SetValidValue(value);
+                _Quantity = StructuralObject.SetValidValue(value, "Quantity");
                 ReportPropertyChanged("Quantity");
                 OnQuantityChanged();
             }
@@ -733,7 +731,7 @@ namespace Tailspin.Data_Access
             {
                 OnUnitCostChanging(value);
                 ReportPropertyChanging("UnitCost");
-                _UnitCost = StructuralObject.SetValidValue(value);
+                _UnitCost = StructuralObject.SetValidValue(value, "UnitCost");
                 ReportPropertyChanged("UnitCost");
                 OnUnitCostChanged();
             }
@@ -744,7 +742,6 @@ namespace Tailspin.Data_Access
 
         #endregion
 
-    
         #region Navigation Properties
     
         /// <summary>
@@ -816,7 +813,7 @@ namespace Tailspin.Data_Access
 
         #endregion
 
-        #region Primitive Properties
+        #region Simple Properties
     
         /// <summary>
         /// No Metadata Documentation available.
@@ -835,7 +832,7 @@ namespace Tailspin.Data_Access
                 {
                     OnProductIDChanging(value);
                     ReportPropertyChanging("ProductID");
-                    _ProductID = StructuralObject.SetValidValue(value);
+                    _ProductID = StructuralObject.SetValidValue(value, "ProductID");
                     ReportPropertyChanged("ProductID");
                     OnProductIDChanged();
                 }
@@ -860,7 +857,7 @@ namespace Tailspin.Data_Access
             {
                 OnCategoryIDChanging(value);
                 ReportPropertyChanging("CategoryID");
-                _CategoryID = StructuralObject.SetValidValue(value);
+                _CategoryID = StructuralObject.SetValidValue(value, "CategoryID");
                 ReportPropertyChanged("CategoryID");
                 OnCategoryIDChanged();
             }
@@ -884,7 +881,7 @@ namespace Tailspin.Data_Access
             {
                 OnModelNumberChanging(value);
                 ReportPropertyChanging("ModelNumber");
-                _ModelNumber = StructuralObject.SetValidValue(value, true);
+                _ModelNumber = StructuralObject.SetValidValue(value, true, "ModelNumber");
                 ReportPropertyChanged("ModelNumber");
                 OnModelNumberChanged();
             }
@@ -908,7 +905,7 @@ namespace Tailspin.Data_Access
             {
                 OnModelNameChanging(value);
                 ReportPropertyChanging("ModelName");
-                _ModelName = StructuralObject.SetValidValue(value, true);
+                _ModelName = StructuralObject.SetValidValue(value, true, "ModelName");
                 ReportPropertyChanged("ModelName");
                 OnModelNameChanged();
             }
@@ -932,7 +929,7 @@ namespace Tailspin.Data_Access
             {
                 OnProductImageChanging(value);
                 ReportPropertyChanging("ProductImage");
-                _ProductImage = StructuralObject.SetValidValue(value, true);
+                _ProductImage = StructuralObject.SetValidValue(value, true, "ProductImage");
                 ReportPropertyChanged("ProductImage");
                 OnProductImageChanged();
             }
@@ -956,7 +953,7 @@ namespace Tailspin.Data_Access
             {
                 OnUnitCostChanging(value);
                 ReportPropertyChanging("UnitCost");
-                _UnitCost = StructuralObject.SetValidValue(value);
+                _UnitCost = StructuralObject.SetValidValue(value, "UnitCost");
                 ReportPropertyChanged("UnitCost");
                 OnUnitCostChanged();
             }
@@ -980,7 +977,7 @@ namespace Tailspin.Data_Access
             {
                 OnDescriptionChanging(value);
                 ReportPropertyChanging("Description");
-                _Description = StructuralObject.SetValidValue(value, true);
+                _Description = StructuralObject.SetValidValue(value, true, "Description");
                 ReportPropertyChanged("Description");
                 OnDescriptionChanged();
             }
@@ -991,7 +988,6 @@ namespace Tailspin.Data_Access
 
         #endregion
 
-    
         #region Navigation Properties
     
         /// <summary>
@@ -1107,7 +1103,7 @@ namespace Tailspin.Data_Access
 
         #endregion
 
-        #region Primitive Properties
+        #region Simple Properties
     
         /// <summary>
         /// No Metadata Documentation available.
@@ -1126,7 +1122,7 @@ namespace Tailspin.Data_Access
                 {
                     OnReviewIDChanging(value);
                     ReportPropertyChanging("ReviewID");
-                    _ReviewID = StructuralObject.SetValidValue(value);
+                    _ReviewID = StructuralObject.SetValidValue(value, "ReviewID");
                     ReportPropertyChanged("ReviewID");
                     OnReviewIDChanged();
                 }
@@ -1151,7 +1147,7 @@ namespace Tailspin.Data_Access
             {
                 OnProductIDChanging(value);
                 ReportPropertyChanging("ProductID");
-                _ProductID = StructuralObject.SetValidValue(value);
+                _ProductID = StructuralObject.SetValidValue(value, "ProductID");
                 ReportPropertyChanged("ProductID");
                 OnProductIDChanged();
             }
@@ -1175,7 +1171,7 @@ namespace Tailspin.Data_Access
             {
                 OnCustomerNameChanging(value);
                 ReportPropertyChanging("CustomerName");
-                _CustomerName = StructuralObject.SetValidValue(value, true);
+                _CustomerName = StructuralObject.SetValidValue(value, true, "CustomerName");
                 ReportPropertyChanged("CustomerName");
                 OnCustomerNameChanged();
             }
@@ -1199,7 +1195,7 @@ namespace Tailspin.Data_Access
             {
                 OnCustomerEmailChanging(value);
                 ReportPropertyChanging("CustomerEmail");
-                _CustomerEmail = StructuralObject.SetValidValue(value, true);
+                _CustomerEmail = StructuralObject.SetValidValue(value, true, "CustomerEmail");
                 ReportPropertyChanged("CustomerEmail");
                 OnCustomerEmailChanged();
             }
@@ -1223,7 +1219,7 @@ namespace Tailspin.Data_Access
             {
                 OnRatingChanging(value);
                 ReportPropertyChanging("Rating");
-                _Rating = StructuralObject.SetValidValue(value);
+                _Rating = StructuralObject.SetValidValue(value, "Rating");
                 ReportPropertyChanged("Rating");
                 OnRatingChanged();
             }
@@ -1247,7 +1243,7 @@ namespace Tailspin.Data_Access
             {
                 OnCommentsChanging(value);
                 ReportPropertyChanging("Comments");
-                _Comments = StructuralObject.SetValidValue(value, true);
+                _Comments = StructuralObject.SetValidValue(value, true, "Comments");
                 ReportPropertyChanged("Comments");
                 OnCommentsChanged();
             }
@@ -1258,7 +1254,6 @@ namespace Tailspin.Data_Access
 
         #endregion
 
-    
         #region Navigation Properties
     
         /// <summary>
@@ -1332,7 +1327,7 @@ namespace Tailspin.Data_Access
 
         #endregion
 
-        #region Primitive Properties
+        #region Simple Properties
     
         /// <summary>
         /// No Metadata Documentation available.
@@ -1351,7 +1346,7 @@ namespace Tailspin.Data_Access
                 {
                     OnRecordIDChanging(value);
                     ReportPropertyChanging("RecordID");
-                    _RecordID = StructuralObject.SetValidValue(value);
+                    _RecordID = StructuralObject.SetValidValue(value, "RecordID");
                     ReportPropertyChanged("RecordID");
                     OnRecordIDChanged();
                 }
@@ -1376,7 +1371,7 @@ namespace Tailspin.Data_Access
             {
                 OnCartIDChanging(value);
                 ReportPropertyChanging("CartID");
-                _CartID = StructuralObject.SetValidValue(value, true);
+                _CartID = StructuralObject.SetValidValue(value, true, "CartID");
                 ReportPropertyChanged("CartID");
                 OnCartIDChanged();
             }
@@ -1400,7 +1395,7 @@ namespace Tailspin.Data_Access
             {
                 OnQuantityChanging(value);
                 ReportPropertyChanging("Quantity");
-                _Quantity = StructuralObject.SetValidValue(value);
+                _Quantity = StructuralObject.SetValidValue(value, "Quantity");
                 ReportPropertyChanged("Quantity");
                 OnQuantityChanged();
             }
@@ -1424,7 +1419,7 @@ namespace Tailspin.Data_Access
             {
                 OnProductIDChanging(value);
                 ReportPropertyChanging("ProductID");
-                _ProductID = StructuralObject.SetValidValue(value);
+                _ProductID = StructuralObject.SetValidValue(value, "ProductID");
                 ReportPropertyChanged("ProductID");
                 OnProductIDChanged();
             }
@@ -1448,7 +1443,7 @@ namespace Tailspin.Data_Access
             {
                 OnDateCreatedChanging(value);
                 ReportPropertyChanging("DateCreated");
-                _DateCreated = StructuralObject.SetValidValue(value);
+                _DateCreated = StructuralObject.SetValidValue(value, "DateCreated");
                 ReportPropertyChanged("DateCreated");
                 OnDateCreatedChanged();
             }
@@ -1459,7 +1454,6 @@ namespace Tailspin.Data_Access
 
         #endregion
 
-    
         #region Navigation Properties
     
         /// <summary>
@@ -1531,7 +1525,7 @@ namespace Tailspin.Data_Access
 
         #endregion
 
-        #region Primitive Properties
+        #region Simple Properties
     
         /// <summary>
         /// No Metadata Documentation available.
@@ -1548,7 +1542,7 @@ namespace Tailspin.Data_Access
             {
                 OnnameChanging(value);
                 ReportPropertyChanging("name");
-                _name = StructuralObject.SetValidValue(value, false);
+                _name = StructuralObject.SetValidValue(value, false, "name");
                 ReportPropertyChanged("name");
                 OnnameChanged();
             }
@@ -1572,7 +1566,7 @@ namespace Tailspin.Data_Access
             {
                 Onprincipal_idChanging(value);
                 ReportPropertyChanging("principal_id");
-                _principal_id = StructuralObject.SetValidValue(value);
+                _principal_id = StructuralObject.SetValidValue(value, "principal_id");
                 ReportPropertyChanged("principal_id");
                 Onprincipal_idChanged();
             }
@@ -1598,7 +1592,7 @@ namespace Tailspin.Data_Access
                 {
                     Ondiagram_idChanging(value);
                     ReportPropertyChanging("diagram_id");
-                    _diagram_id = StructuralObject.SetValidValue(value);
+                    _diagram_id = StructuralObject.SetValidValue(value, "diagram_id");
                     ReportPropertyChanged("diagram_id");
                     Ondiagram_idChanged();
                 }
@@ -1623,7 +1617,7 @@ namespace Tailspin.Data_Access
             {
                 OnversionChanging(value);
                 ReportPropertyChanging("version");
-                _version = StructuralObject.SetValidValue(value);
+                _version = StructuralObject.SetValidValue(value, "version");
                 ReportPropertyChanged("version");
                 OnversionChanged();
             }
@@ -1647,7 +1641,7 @@ namespace Tailspin.Data_Access
             {
                 OndefinitionChanging(value);
                 ReportPropertyChanging("definition");
-                _definition = StructuralObject.SetValidValue(value, true);
+                _definition = StructuralObject.SetValidValue(value, true, "definition");
                 ReportPropertyChanged("definition");
                 OndefinitionChanged();
             }
@@ -1658,7 +1652,6 @@ namespace Tailspin.Data_Access
 
         #endregion
 
-    
     }
     
     /// <summary>
@@ -1684,7 +1677,7 @@ namespace Tailspin.Data_Access
 
         #endregion
 
-        #region Primitive Properties
+        #region Simple Properties
     
         /// <summary>
         /// No Metadata Documentation available.
@@ -1703,7 +1696,7 @@ namespace Tailspin.Data_Access
                 {
                     OnProductIDChanging(value);
                     ReportPropertyChanging("ProductID");
-                    _ProductID = StructuralObject.SetValidValue(value);
+                    _ProductID = StructuralObject.SetValidValue(value, "ProductID");
                     ReportPropertyChanged("ProductID");
                     OnProductIDChanged();
                 }
@@ -1728,7 +1721,7 @@ namespace Tailspin.Data_Access
             {
                 OnModelNumberChanging(value);
                 ReportPropertyChanging("ModelNumber");
-                _ModelNumber = StructuralObject.SetValidValue(value, true);
+                _ModelNumber = StructuralObject.SetValidValue(value, true, "ModelNumber");
                 ReportPropertyChanged("ModelNumber");
                 OnModelNumberChanged();
             }
@@ -1752,7 +1745,7 @@ namespace Tailspin.Data_Access
             {
                 OnModelNameChanging(value);
                 ReportPropertyChanging("ModelName");
-                _ModelName = StructuralObject.SetValidValue(value, true);
+                _ModelName = StructuralObject.SetValidValue(value, true, "ModelName");
                 ReportPropertyChanged("ModelName");
                 OnModelNameChanged();
             }
@@ -1776,7 +1769,7 @@ namespace Tailspin.Data_Access
             {
                 OnQuantityChanging(value);
                 ReportPropertyChanging("Quantity");
-                _Quantity = StructuralObject.SetValidValue(value);
+                _Quantity = StructuralObject.SetValidValue(value, "Quantity");
                 ReportPropertyChanged("Quantity");
                 OnQuantityChanged();
             }
@@ -1800,7 +1793,7 @@ namespace Tailspin.Data_Access
             {
                 OnUnitCostChanging(value);
                 ReportPropertyChanging("UnitCost");
-                _UnitCost = StructuralObject.SetValidValue(value);
+                _UnitCost = StructuralObject.SetValidValue(value, "UnitCost");
                 ReportPropertyChanged("UnitCost");
                 OnUnitCostChanged();
             }
@@ -1824,7 +1817,7 @@ namespace Tailspin.Data_Access
             {
                 OnOrderIDChanging(value);
                 ReportPropertyChanging("OrderID");
-                _OrderID = StructuralObject.SetValidValue(value);
+                _OrderID = StructuralObject.SetValidValue(value, "OrderID");
                 ReportPropertyChanged("OrderID");
                 OnOrderIDChanged();
             }
@@ -1835,7 +1828,6 @@ namespace Tailspin.Data_Access
 
         #endregion
 
-    
     }
     
     /// <summary>
@@ -1861,7 +1853,7 @@ namespace Tailspin.Data_Access
 
         #endregion
 
-        #region Primitive Properties
+        #region Simple Properties
     
         /// <summary>
         /// No Metadata Documentation available.
@@ -1878,7 +1870,7 @@ namespace Tailspin.Data_Access
             {
                 OnProductIDChanging(value);
                 ReportPropertyChanging("ProductID");
-                _ProductID = StructuralObject.SetValidValue(value);
+                _ProductID = StructuralObject.SetValidValue(value, "ProductID");
                 ReportPropertyChanged("ProductID");
                 OnProductIDChanged();
             }
@@ -1902,7 +1894,7 @@ namespace Tailspin.Data_Access
             {
                 OnModelNameChanging(value);
                 ReportPropertyChanging("ModelName");
-                _ModelName = StructuralObject.SetValidValue(value, true);
+                _ModelName = StructuralObject.SetValidValue(value, true, "ModelName");
                 ReportPropertyChanged("ModelName");
                 OnModelNameChanged();
             }
@@ -1926,7 +1918,7 @@ namespace Tailspin.Data_Access
             {
                 OnTotalNumPurchasedChanging(value);
                 ReportPropertyChanging("TotalNumPurchased");
-                _TotalNumPurchased = StructuralObject.SetValidValue(value);
+                _TotalNumPurchased = StructuralObject.SetValidValue(value, "TotalNumPurchased");
                 ReportPropertyChanged("TotalNumPurchased");
                 OnTotalNumPurchasedChanged();
             }
@@ -1950,7 +1942,7 @@ namespace Tailspin.Data_Access
             {
                 OnOrderIDChanging(value);
                 ReportPropertyChanging("OrderID");
-                _OrderID = StructuralObject.SetValidValue(value);
+                _OrderID = StructuralObject.SetValidValue(value, "OrderID");
                 ReportPropertyChanged("OrderID");
                 OnOrderIDChanged();
             }
@@ -1976,7 +1968,7 @@ namespace Tailspin.Data_Access
                 {
                     OnProducts_ProductIDChanging(value);
                     ReportPropertyChanging("Products_ProductID");
-                    _Products_ProductID = StructuralObject.SetValidValue(value);
+                    _Products_ProductID = StructuralObject.SetValidValue(value, "Products_ProductID");
                     ReportPropertyChanged("Products_ProductID");
                     OnProducts_ProductIDChanged();
                 }
@@ -1988,7 +1980,6 @@ namespace Tailspin.Data_Access
 
         #endregion
 
-    
     }
     
     /// <summary>
@@ -2018,7 +2009,7 @@ namespace Tailspin.Data_Access
 
         #endregion
 
-        #region Primitive Properties
+        #region Simple Properties
     
         /// <summary>
         /// No Metadata Documentation available.
@@ -2037,7 +2028,7 @@ namespace Tailspin.Data_Access
                 {
                     OnProductIDChanging(value);
                     ReportPropertyChanging("ProductID");
-                    _ProductID = StructuralObject.SetValidValue(value);
+                    _ProductID = StructuralObject.SetValidValue(value, "ProductID");
                     ReportPropertyChanged("ProductID");
                     OnProductIDChanged();
                 }
@@ -2062,7 +2053,7 @@ namespace Tailspin.Data_Access
             {
                 OnModelNumberChanging(value);
                 ReportPropertyChanging("ModelNumber");
-                _ModelNumber = StructuralObject.SetValidValue(value, true);
+                _ModelNumber = StructuralObject.SetValidValue(value, true, "ModelNumber");
                 ReportPropertyChanged("ModelNumber");
                 OnModelNumberChanged();
             }
@@ -2086,7 +2077,7 @@ namespace Tailspin.Data_Access
             {
                 OnModelNameChanging(value);
                 ReportPropertyChanging("ModelName");
-                _ModelName = StructuralObject.SetValidValue(value, true);
+                _ModelName = StructuralObject.SetValidValue(value, true, "ModelName");
                 ReportPropertyChanged("ModelName");
                 OnModelNameChanged();
             }
@@ -2112,7 +2103,7 @@ namespace Tailspin.Data_Access
                 {
                     OnUnitCostChanging(value);
                     ReportPropertyChanging("UnitCost");
-                    _UnitCost = StructuralObject.SetValidValue(value);
+                    _UnitCost = StructuralObject.SetValidValue(value, "UnitCost");
                     ReportPropertyChanged("UnitCost");
                     OnUnitCostChanged();
                 }
@@ -2139,7 +2130,7 @@ namespace Tailspin.Data_Access
                 {
                     OnQuantityChanging(value);
                     ReportPropertyChanging("Quantity");
-                    _Quantity = StructuralObject.SetValidValue(value);
+                    _Quantity = StructuralObject.SetValidValue(value, "Quantity");
                     ReportPropertyChanged("Quantity");
                     OnQuantityChanged();
                 }
@@ -2164,7 +2155,7 @@ namespace Tailspin.Data_Access
             {
                 OnCartIDChanging(value);
                 ReportPropertyChanging("CartID");
-                _CartID = StructuralObject.SetValidValue(value, true);
+                _CartID = StructuralObject.SetValidValue(value, true, "CartID");
                 ReportPropertyChanged("CartID");
                 OnCartIDChanged();
             }
@@ -2175,10 +2166,8 @@ namespace Tailspin.Data_Access
 
         #endregion
 
-    
     }
 
     #endregion
 
-    
 }

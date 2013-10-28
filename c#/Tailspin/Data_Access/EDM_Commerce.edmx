@@ -1,19 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
   <!-- EF Runtime content -->
   <edmx:Runtime>
     <!-- SSDL content -->
     <edmx:StorageModels>
-      <Schema Namespace="COMMERCEEnities.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+      <Schema Namespace="COMMERCEEnities.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
         <EntityContainer Name="COMMERCEEnitiesStoreContainer">
-          <EntitySet Name="Categories" EntityType="COMMERCEEnities.Store.Categories" store:Type="Tables" Schema="dbo" />
-          <EntitySet Name="OrderDetails" EntityType="COMMERCEEnities.Store.OrderDetails" store:Type="Tables" Schema="dbo" />
-          <EntitySet Name="Orders" EntityType="COMMERCEEnities.Store.Orders" store:Type="Tables" Schema="dbo" />
-          <EntitySet Name="Products" EntityType="COMMERCEEnities.Store.Products" store:Type="Tables" Schema="dbo" />
-          <EntitySet Name="Reviews" EntityType="COMMERCEEnities.Store.Reviews" store:Type="Tables" Schema="dbo" />
-          <EntitySet Name="ShoppingCart" EntityType="COMMERCEEnities.Store.ShoppingCart" store:Type="Tables" Schema="dbo" />
-          <EntitySet Name="sysdiagrams" EntityType="COMMERCEEnities.Store.sysdiagrams" store:Type="Tables" Schema="dbo" />
-          <EntitySet Name="VewOrderDetails" EntityType="COMMERCEEnities.Store.VewOrderDetails" store:Type="Views" store:Schema="dbo" store:Name="VewOrderDetails">
+          <EntitySet Name="Categories" EntityType="COMMERCEEnities.Store.Categories" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+          <EntitySet Name="OrderDetails" EntityType="COMMERCEEnities.Store.OrderDetails" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+          <EntitySet Name="Orders" EntityType="COMMERCEEnities.Store.Orders" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+          <EntitySet Name="Products" EntityType="COMMERCEEnities.Store.Products" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+          <EntitySet Name="Reviews" EntityType="COMMERCEEnities.Store.Reviews" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+          <EntitySet Name="ShoppingCart" EntityType="COMMERCEEnities.Store.ShoppingCart" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+          <EntitySet Name="sysdiagrams" EntityType="COMMERCEEnities.Store.sysdiagrams" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+          <EntitySet Name="VewOrderDetails" EntityType="COMMERCEEnities.Store.VewOrderDetails" store:Type="Views" store:Schema="dbo" store:Name="VewOrderDetails" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator">
             <DefiningQuery>SELECT 
       [VewOrderDetails].[ProductID] AS [ProductID], 
       [VewOrderDetails].[ModelNumber] AS [ModelNumber], 
@@ -23,7 +23,7 @@
       [VewOrderDetails].[OrderID] AS [OrderID]
       FROM [dbo].[VewOrderDetails] AS [VewOrderDetails]</DefiningQuery>
           </EntitySet>
-          <EntitySet Name="ViewAlsoPurchased" EntityType="COMMERCEEnities.Store.ViewAlsoPurchased" store:Type="Views" store:Schema="dbo" store:Name="ViewAlsoPurchased">
+          <EntitySet Name="ViewAlsoPurchased" EntityType="COMMERCEEnities.Store.ViewAlsoPurchased" store:Type="Views" store:Schema="dbo" store:Name="ViewAlsoPurchased" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator">
             <DefiningQuery>SELECT 
       [ViewAlsoPurchased].[ProductID] AS [ProductID], 
       [ViewAlsoPurchased].[ModelName] AS [ModelName], 
@@ -32,7 +32,7 @@
       [ViewAlsoPurchased].[Products_ProductID] AS [Products_ProductID]
       FROM [dbo].[ViewAlsoPurchased] AS [ViewAlsoPurchased]</DefiningQuery>
           </EntitySet>
-          <EntitySet Name="ViewCart" EntityType="COMMERCEEnities.Store.ViewCart" store:Type="Views" store:Schema="dbo" store:Name="ViewCart">
+          <EntitySet Name="ViewCart" EntityType="COMMERCEEnities.Store.ViewCart" store:Type="Views" store:Schema="dbo" store:Name="ViewCart" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator">
             <DefiningQuery>SELECT 
       [ViewCart].[ProductID] AS [ProductID], 
       [ViewCart].[ModelNumber] AS [ModelNumber], 
@@ -226,8 +226,8 @@
     </edmx:StorageModels>
     <!-- CSDL content -->
     <edmx:ConceptualModels>
-      <Schema Namespace="COMMERCEEnities" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
-        <EntityContainer Name="COMMERCEEntities" annotation:LazyLoadingEnabled="true">
+      <Schema Namespace="COMMERCEEnities" Alias="Self" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="COMMERCEEntities" annotation:LazyLoadingEnabled="true" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation">
           <EntitySet Name="Categories" EntityType="COMMERCEEnities.Category" />
           <EntitySet Name="OrderDetails" EntityType="COMMERCEEnities.OrderDetail" />
           <EntitySet Name="Orders" EntityType="COMMERCEEnities.Order" />
@@ -259,7 +259,7 @@
           <Key>
             <PropertyRef Name="CategoryID" />
           </Key>
-          <Property Name="CategoryID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="CategoryID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
           <Property Name="CategoryName" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
           <NavigationProperty Name="Products" Relationship="COMMERCEEnities.FK_Products_Categories" FromRole="Categories" ToRole="Products" />
         </EntityType>
@@ -267,7 +267,7 @@
           <Key>
             <PropertyRef Name="Id" />
           </Key>
-          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
           <Property Name="OrderID" Type="Int32" />
           <Property Name="ProductID" Type="Int32" />
           <Property Name="Quantity" Type="Int32" />
@@ -278,7 +278,7 @@
           <Key>
             <PropertyRef Name="OrderID" />
           </Key>
-          <Property Name="OrderID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="OrderID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
           <Property Name="CustomerName" Type="String" Nullable="false" MaxLength="256" Unicode="true" FixedLength="false" />
           <Property Name="OrderDate" Type="DateTime" Nullable="false" />
           <Property Name="ShipDate" Type="DateTime" Nullable="false" />
@@ -288,7 +288,7 @@
           <Key>
             <PropertyRef Name="ProductID" />
           </Key>
-          <Property Name="ProductID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ProductID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
           <Property Name="CategoryID" Type="Int32" Nullable="false" />
           <Property Name="ModelNumber" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
           <Property Name="ModelName" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
@@ -303,7 +303,7 @@
           <Key>
             <PropertyRef Name="ReviewID" />
           </Key>
-          <Property Name="ReviewID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ReviewID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
           <Property Name="ProductID" Type="Int32" Nullable="false" />
           <Property Name="CustomerName" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
           <Property Name="CustomerEmail" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
@@ -315,7 +315,7 @@
           <Key>
             <PropertyRef Name="RecordID" />
           </Key>
-          <Property Name="RecordID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="RecordID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
           <Property Name="CartID" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
           <Property Name="Quantity" Type="Int32" Nullable="false" />
           <Property Name="ProductID" Type="Int32" Nullable="false" />
@@ -328,7 +328,7 @@
           </Key>
           <Property Name="name" Type="String" Nullable="false" MaxLength="128" Unicode="true" FixedLength="false" />
           <Property Name="principal_id" Type="Int32" Nullable="false" />
-          <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" />
           <Property Name="version" Type="Int32" />
           <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
         </EntityType>
@@ -418,7 +418,7 @@
     </edmx:ConceptualModels>
     <!-- C-S mapping content -->
     <edmx:Mappings>
-      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
         <EntityContainerMapping StorageEntityContainer="COMMERCEEnitiesStoreContainer" CdmEntityContainer="COMMERCEEntities">
           <EntitySetMapping Name="Categories"><EntityTypeMapping TypeName="COMMERCEEnities.Category"><MappingFragment StoreEntitySet="Categories">
             <ScalarProperty Name="CategoryID" ColumnName="CategoryID" />
@@ -496,7 +496,7 @@
     </edmx:Mappings>
   </edmx:Runtime>
   <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
-  <Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <Connection>
       <DesignerInfoPropertySet>
         <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />

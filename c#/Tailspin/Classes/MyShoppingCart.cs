@@ -6,7 +6,7 @@ using Tailspin.Data_Access;
 using System.Web.Security;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-
+using System.IdentityModel;
 
 
 namespace Tailspin.Classes
@@ -26,6 +26,12 @@ namespace Tailspin.Classes
 
         public String GetShoppingCartId()
         {
+
+            //foreach (string s in HttpContext.Current.Request.Params.Keys)
+            //{
+            //    HttpContext.Current.Response.Write(s.ToString() + ":" + HttpContext.Current.Request.Params[s] + "<br>");
+            //}
+
             if (HttpContext.Current.Session[CartId] == null)
             {
                 HttpContext.Current.Session[CartId] = System.Web.HttpContext.Current.Request.IsAuthenticated ? HttpContext.Current.User.Identity.Name : Guid.NewGuid().ToString();

@@ -11,6 +11,7 @@ namespace Tailspin
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+
             if (HttpContext.Current.User.Identity.IsAuthenticated)
             {
                 if (Session["UserName"] == null)
@@ -18,6 +19,7 @@ namespace Tailspin
                     Session["UserName"] = HttpContext.Current.User.Identity.Name;
                 }
             }
+                                    
         }
 
 

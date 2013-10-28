@@ -14,8 +14,8 @@
         <PagerStyle BackColor="#FFCC66" ForeColor="#333333" HorizontalAlign="Center" />
         <RowStyle BackColor="#FFFBD6" ForeColor="#333333" />
     </asp:FormView>
-    <asp:EntityDataSource ID="EDS_Order" runat="server"  EnableFlattening="False" ConnectionString="name=CommerceEntities" 
-                          DefaultContainerName="CommerceEntities" EntitySetName="Orders" AutoGenerateWhereClause="True" Where="" 
+    <asp:EntityDataSource ID="EDS_Order" runat="server"  EnableFlattening="False" ConnectionString="name=COMMERCEEntities" 
+                          DefaultContainerName="COMMERCEEntities" EntitySetName="Orders" AutoGenerateWhereClause="True" Where="" 
                           EntityTypeFilter="" Select="">
                           <WhereParameters>
                                 <asp:QueryStringParameter Name="OrderID" QueryStringField="OrderID" Type="Int32" />

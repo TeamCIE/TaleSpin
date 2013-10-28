@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Schema Namespace="COMMERCEEnities.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+<Schema Namespace="COMMERCEEnities.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
   <EntityContainer Name="COMMERCEEnitiesStoreContainer">
-    <EntitySet Name="Categories" EntityType="COMMERCEEnities.Store.Categories" store:Type="Tables" Schema="dbo" />
-    <EntitySet Name="OrderDetails" EntityType="COMMERCEEnities.Store.OrderDetails" store:Type="Tables" Schema="dbo" />
-    <EntitySet Name="Orders" EntityType="COMMERCEEnities.Store.Orders" store:Type="Tables" Schema="dbo" />
-    <EntitySet Name="Products" EntityType="COMMERCEEnities.Store.Products" store:Type="Tables" Schema="dbo" />
-    <EntitySet Name="Reviews" EntityType="COMMERCEEnities.Store.Reviews" store:Type="Tables" Schema="dbo" />
-    <EntitySet Name="ShoppingCart" EntityType="COMMERCEEnities.Store.ShoppingCart" store:Type="Tables" Schema="dbo" />
-    <EntitySet Name="sysdiagrams" EntityType="COMMERCEEnities.Store.sysdiagrams" store:Type="Tables" Schema="dbo" />
-    <EntitySet Name="VewOrderDetails" EntityType="COMMERCEEnities.Store.VewOrderDetails" store:Type="Views" store:Schema="dbo" store:Name="VewOrderDetails">
+    <EntitySet Name="Categories" EntityType="COMMERCEEnities.Store.Categories" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="OrderDetails" EntityType="COMMERCEEnities.Store.OrderDetails" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="Orders" EntityType="COMMERCEEnities.Store.Orders" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="Products" EntityType="COMMERCEEnities.Store.Products" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="Reviews" EntityType="COMMERCEEnities.Store.Reviews" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="ShoppingCart" EntityType="COMMERCEEnities.Store.ShoppingCart" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="sysdiagrams" EntityType="COMMERCEEnities.Store.sysdiagrams" store:Type="Tables" Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="VewOrderDetails" EntityType="COMMERCEEnities.Store.VewOrderDetails" store:Type="Views" store:Schema="dbo" store:Name="VewOrderDetails" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator">
       <DefiningQuery>SELECT 
       [VewOrderDetails].[ProductID] AS [ProductID], 
       [VewOrderDetails].[ModelNumber] AS [ModelNumber], 
@@ -18,7 +18,7 @@
       [VewOrderDetails].[OrderID] AS [OrderID]
       FROM [dbo].[VewOrderDetails] AS [VewOrderDetails]</DefiningQuery>
     </EntitySet>
-    <EntitySet Name="ViewAlsoPurchased" EntityType="COMMERCEEnities.Store.ViewAlsoPurchased" store:Type="Views" store:Schema="dbo" store:Name="ViewAlsoPurchased">
+    <EntitySet Name="ViewAlsoPurchased" EntityType="COMMERCEEnities.Store.ViewAlsoPurchased" store:Type="Views" store:Schema="dbo" store:Name="ViewAlsoPurchased" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator">
       <DefiningQuery>SELECT 
       [ViewAlsoPurchased].[ProductID] AS [ProductID], 
       [ViewAlsoPurchased].[ModelName] AS [ModelName], 
@@ -27,7 +27,7 @@
       [ViewAlsoPurchased].[Products_ProductID] AS [Products_ProductID]
       FROM [dbo].[ViewAlsoPurchased] AS [ViewAlsoPurchased]</DefiningQuery>
     </EntitySet>
-    <EntitySet Name="ViewCart" EntityType="COMMERCEEnities.Store.ViewCart" store:Type="Views" store:Schema="dbo" store:Name="ViewCart">
+    <EntitySet Name="ViewCart" EntityType="COMMERCEEnities.Store.ViewCart" store:Type="Views" store:Schema="dbo" store:Name="ViewCart" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator">
       <DefiningQuery>SELECT 
       [ViewCart].[ProductID] AS [ProductID], 
       [ViewCart].[ModelNumber] AS [ModelNumber], 

@@ -61,7 +61,7 @@
             </tr>
             </table>
             <sapn calass="UnitCost"><b>Your Price :</b>&nbsp;<%# Eval("UnitCost","{0:c}") %></sapn><br />
-            <a href='AddToCart.aspx?ProductID=<%# Eval("ProductID") %>' style=" broder :0 none white">
+            <a href='AddToCart.aspx?ProductID=<%# Eval("ProductID") %>' style=" border :0 none white">
             <img id="Img1" src="~/Styles/Images/add_to_cart.gif" runat="server" alt="" style=" border-width: 0" />
             </a>
             <br /><br />
