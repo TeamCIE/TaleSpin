@@ -56,7 +56,7 @@
             <table border="0">
             <tr>
             <td style=" vertical-align: top;">
-            <image src='Catalog/Images/Thumbs/<%# Eval("ProductImage") %>' border="0" alt='<%# Eval("ModelName") %>' />
+            <image src='<%# Eval("ProductImage") %>' border="0" alt='<%# Eval("ModelName") %>' />
             </td>
             </tr>
             </table>
