@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="MyShoppingCart.aspx.cs" Inherits="Tailspin.MyShoppingCart" %>
+﻿<%@ Page Title="Shopping Cart" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="MyShoppingCart.aspx.cs" Inherits="Tailspin.MyShoppingCart" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
 </asp:Content>
 
@@ -54,8 +54,8 @@
         </div>
     <br />
   
-    <asp:imagebutton id="UpdateBtn" runat="server" ImageURL="Styles/Images/update_cart.gif" onclick="UpdateBtn_Click"></asp:imagebutton>
-    <asp:imagebutton id="CheckoutBtn" runat="server" ImageURL="Styles/Images/final_checkout.gif" PostBackUrl="~/CheckOut.aspx" 
+    <asp:imagebutton id="UpdateBtn" runat="server" ImageURL="Styles/Images/update_cart.png" onclick="UpdateBtn_Click"></asp:imagebutton>
+    <asp:imagebutton id="CheckoutBtn" runat="server" ImageURL="Styles/Images/final_checkout.png" PostBackUrl="~/CheckOut.aspx" 
             onclick="CheckoutBtn_Click"></asp:imagebutton>
 
     <asp:EntityDataSource ID="EDS_Cart" runat="server" 
@@ -69,6 +69,6 @@
     
     </asp:EntityDataSource>
     <br />
-        </strong>
+     
 </asp:Content>
 

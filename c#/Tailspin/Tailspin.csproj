@@ -66,10 +66,7 @@
     <Reference Include="Microsoft.Web.DistributedCache, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.WindowsAzure.Caching.2.1.0.0\lib\net40-full\Microsoft.Web.DistributedCache.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.WindowsAzure.Diagnostics, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\..\Program Files\Microsoft SDKs\Windows Azure\.NET SDK\v2.1\ref\Microsoft.WindowsAzure.Diagnostics.dll</HintPath>
-    </Reference>
+    <Reference Include="Microsoft.WindowsAzure.Diagnostics, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
     <Reference Include="Microsoft.WindowsAzure.ServiceRuntime, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\..\..\..\Program Files\Microsoft SDKs\Windows Azure\.NET SDK\v2.1\ref\Microsoft.WindowsAzure.ServiceRuntime.dll</HintPath>
@@ -140,23 +137,28 @@
     <Content Include="Styles\images\a7.gif" />
     <Content Include="Styles\images\account.gif" />
     <Content Include="Styles\images\add_to_cart.gif" />
+    <Content Include="Styles\images\add_to_cart.png" />
     <Content Include="Styles\images\arrowbutton.gif" />
     <Content Include="Styles\images\arrows.gif" />
     <Content Include="Styles\images\arrows2.gif" />
     <Content Include="Styles\images\banner.jpg" />
     <Content Include="Styles\images\banner_learning.jpg" />
+    <Content Include="Styles\images\Bing.jpg" />
+    <Content Include="Styles\images\Bing2.jpg" />
     <Content Include="Styles\images\but1.gif" />
     <Content Include="Styles\images\but2.gif" />
     <Content Include="Styles\images\but3.gif" />
     <Content Include="Styles\images\but4.gif" />
     <Content Include="Styles\images\but5.gif" />
     <Content Include="Styles\images\cart.gif" />
+    <Content Include="Styles\images\Cloud.png" />
     <Content Include="Styles\images\dots.gif" />
     <Content Include="Styles\images\EmptyStar.png" />
     <Content Include="Styles\images\eshppingbanner.jpg" />
     <Content Include="Styles\images\eshppingbanner.png" />
     <Content Include="Styles\images\FilledStar.png" />
     <Content Include="Styles\images\final_checkout.gif" />
+    <Content Include="Styles\images\final_checkout.png" />
     <Content Include="Styles\images\grid_background.gif" />
     <Content Include="Styles\images\headerbackground.gif" />
     <Content Include="Styles\images\help_bkgrd.gif" />
@@ -168,9 +170,11 @@
     <Content Include="Styles\images\img08.jpg" />
     <Content Include="Styles\images\logo.gif" />
     <Content Include="Styles\images\logo1.gif" />
+    <Content Include="Styles\images\Logo1.jpg" />
     <Content Include="Styles\images\modernliving.gif" />
     <Content Include="Styles\images\modernliving_bkgrd.gif" />
     <Content Include="Styles\images\most_secretive_place.gif" />
+    <Content Include="Styles\images\PwrBy-WinAzure_rgb_Blk_D.png" />
     <Content Include="Styles\images\register.gif" />
     <Content Include="Styles\images\reviewrating1.gif" />
     <Content Include="Styles\images\reviewrating2.gif" />
@@ -186,11 +190,13 @@
     <Content Include="Styles\images\sitebkgrd.gif" />
     <Content Include="Styles\images\sitebkgrdnogray.GIF" />
     <Content Include="Styles\images\submit.gif" />
+    <Content Include="Styles\images\Submit.png" />
     <Content Include="Styles\images\tableRowH.gif" />
     <Content Include="Styles\images\target.gif" />
     <Content Include="Styles\images\title.gif" />
     <Content Include="Styles\images\title2.gif" />
     <Content Include="Styles\images\update_cart.gif" />
+    <Content Include="Styles\images\update_cart.png" />
     <Content Include="Styles\Site.css" />
     <Content Include="Default.aspx" />
     <Content Include="Global.asax" />
@@ -369,8 +375,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>43768</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>
-          </IISUrl>
+          <IISUrl>http://localhost/Tailspin</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

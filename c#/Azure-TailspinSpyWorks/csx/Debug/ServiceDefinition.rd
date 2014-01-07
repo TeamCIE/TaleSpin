@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<serviceModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Azure_TailspinSpyWorks" generation="1" functional="0" release="0" Id="f5fb8939-2558-4ef5-9907-f9c25c9f1f85" dslVersion="1.2.0.0" xmlns="http://schemas.microsoft.com/dsltools/RDSM">
+<serviceModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Azure_TailspinSpyWorks" generation="1" functional="0" release="0" Id="39353ca9-f94e-460b-a672-bf0e2865dba3" dslVersion="1.2.0.0" xmlns="http://schemas.microsoft.com/dsltools/RDSM">
   <groups>
     <group name="Azure_TailspinSpyWorksGroup" generation="1" functional="0" release="0">
       <componentports>
@@ -178,14 +178,14 @@
     </group>
   </groups>
   <implements>
-    <implementation Id="bf743fe0-1668-497e-abcd-e06515a2cbff" ref="Microsoft.RedDog.Contract\ServiceContract\Azure_TailspinSpyWorksContract@ServiceDefinition">
+    <implementation Id="3a82402e-22fe-4b25-83dd-77a23b2cc653" ref="Microsoft.RedDog.Contract\ServiceContract\Azure_TailspinSpyWorksContract@ServiceDefinition">
       <interfacereferences>
-        <interfaceReference Id="a7dd9f49-05b5-4696-8fd2-b68e987e42fa" ref="Microsoft.RedDog.Contract\Interface\Tailspin:Endpoint1@ServiceDefinition">
+        <interfaceReference Id="6f528aee-40a0-4051-b9d2-5f728b88ada9" ref="Microsoft.RedDog.Contract\Interface\Tailspin:Endpoint1@ServiceDefinition">
           <inPort>
             <inPortMoniker name="/Azure_TailspinSpyWorks/Azure_TailspinSpyWorksGroup/Tailspin:Endpoint1" />
           </inPort>
         </interfaceReference>
-        <interfaceReference Id="2f36d419-be3a-44c0-bb63-eba8ef5e5593" ref="Microsoft.RedDog.Contract\Interface\Tailspin:Microsoft.WindowsAzure.Plugins.RemoteForwarder.RdpInput@ServiceDefinition">
+        <interfaceReference Id="633d1ae9-9ecd-4bdd-a90b-fa6a96d72c6f" ref="Microsoft.RedDog.Contract\Interface\Tailspin:Microsoft.WindowsAzure.Plugins.RemoteForwarder.RdpInput@ServiceDefinition">
           <inPort>
             <inPortMoniker name="/Azure_TailspinSpyWorks/Azure_TailspinSpyWorksGroup/Tailspin:Microsoft.WindowsAzure.Plugins.RemoteForwarder.RdpInput" />
           </inPort>

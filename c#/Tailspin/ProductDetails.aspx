@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="ProductDetails.aspx.cs" Inherits="Tailspin.ProductDetails" %>
+﻿<%@ Page Title="Products" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="ProductDetails.aspx.cs" Inherits="Tailspin.ProductDetails" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
@@ -62,7 +62,7 @@
             </table>
             <sapn calass="UnitCost"><b>Your Price :</b>&nbsp;<%# Eval("UnitCost","{0:c}") %></sapn><br />
             <a href='AddToCart.aspx?ProductID=<%# Eval("ProductID") %>' style=" border :0 none white">
-            <img id="Img1" src="~/Styles/Images/add_to_cart.gif" runat="server" alt="" style=" border-width: 0" />
+            <img id="Img1" src="~/Styles/Images/add_to_cart.png" runat="server" alt="" style=" border-width: 0" />
             </a>
             <br /><br />
        </ItemTemplate>

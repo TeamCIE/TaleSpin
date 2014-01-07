@@ -40,33 +40,6 @@ namespace Tailspin {
         protected global::System.Web.UI.HtmlControls.HtmlForm MyForm;
         
         /// <summary>
-        /// A1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlAnchor A1;
-        
-        /// <summary>
-        /// Img1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlImage Img1;
-        
-        /// <summary>
-        /// MenuLoginView control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.LoginView MenuLoginView;
-        
-        /// <summary>
         /// A2 control.
         /// </summary>
         /// <remarks>
@@ -101,6 +74,33 @@ namespace Tailspin {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlImage Img3;
+        
+        /// <summary>
+        /// A1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlAnchor A1;
+        
+        /// <summary>
+        /// Img1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlImage Img1;
+        
+        /// <summary>
+        /// MenuLoginView control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.LoginView MenuLoginView;
         
         /// <summary>
         /// A4 control.

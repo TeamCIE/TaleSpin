@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="CheckOut.aspx.cs" Inherits="Tailspin.CheckOut" %>
+﻿<%@ Page Title="Check Out" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="CheckOut.aspx.cs" Inherits="Tailspin.CheckOut" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
@@ -29,7 +29,7 @@
         <HeaderStyle CssClass="CartListHead" />
     </asp:GridView>
        <br />
-    <asp:imagebutton id="CheckoutBtn" runat="server" ImageURL="Styles/Images/submit.gif" onclick="CheckoutBtn_Click"></asp:imagebutton>
+    <asp:imagebutton id="CheckoutBtn" runat="server" ImageURL="Styles/Images/submit.png" onclick="CheckoutBtn_Click"></asp:imagebutton>
         <asp:EntityDataSource ID="EDS_Cart" runat="server" 
         ConnectionString="name=COMMERCEEntities" 
         DefaultContainerName="COMMERCEEntities" EnableFlattening="False" 
