@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
-<ServiceConfiguration serviceName="Azure_TailspinSpyWorks" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceConfiguration" osFamily="1" osVersion="*" schemaVersion="2013-03.2.0">
+<ServiceConfiguration serviceName="Azure_TailspinSpyWorks" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceConfiguration" osFamily="3" osVersion="*" schemaVersion="2013-03.2.0">
   <Role name="Tailspin">
     <Instances count="1" />
     <ConfigurationSettings>
       <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="UseDevelopmentStorage=true" />
       <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.Enabled" value="true" />
       <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountUsername" value="azurepoc" />
-      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountEncryptedPassword" value="MIIBnQYJKoZIhvcNAQcDoIIBjjCCAYoCAQAxggFOMIIBSgIBADAyMB4xHDAaBgNVBAMME1dpbmRvd3MgQXp1cmUgVG9vbHMCEBZbIG/JumeGQDZkGcQichIwDQYJKoZIhvcNAQEBBQAEggEAJMRvq+0qqhFOIFYufWH5+Df8+UZfgqYEW+RKMtIi1w6ENaCn25guS92mLKcZgAdAd0Db5M6i97td9LVSKd6KZHQ+7kxHniVLsSfeNbTKhzgvuyfqlsuMZj0xVowOLSMkoU7uPKpYigVLLFzLIeAMNlOON3z2hEA4rTq63QxthBUa4Z1bysHXe9DIpgtdy/DgfPlPAuQ9ST7lydRG6l3f73SYsRXb5b9XsPX7ZDC6lB8mnBNRQB1P0Hxa3Gm3S4b7CYSjR350WrdAyaMeVH6p37MeyahAoN9SF2wZbN2Fotnv/QxUYvhGtHRKrI8XnJCPRnbgo49XTwvtkLzPnZoczzAzBgkqhkiG9w0BBwEwFAYIKoZIhvcNAwcECLJy5swj7CNZgBCN/eK+CtbxoX0pzjrZJ/qQ" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountEncryptedPassword" value="MIIBnQYJKoZIhvcNAQcDoIIBjjCCAYoCAQAxggFOMIIBSgIBADAyMB4xHDAaBgNVBAMME1dpbmRvd3MgQXp1cmUgVG9vbHMCEBZbIG/JumeGQDZkGcQichIwDQYJKoZIhvcNAQEBBQAEggEAkg5ZWF6t6wcp5MQArnMHKOH6qQWLq3LtHpDxUSviBiltFGGI7Jh5mExJiM4v97gy7n1UPQhC5wd9ioCuGX64w2iNjGyPBNx2TeZht1SfUtyS8bN+t9YWmxl/l4bNwP8oCwtJDx5TygcfzKqHycKLYpv5Z8uEX/3wg4mtOnwUc+TqsDKxTYtyeuRcZuHMPavCC0RjeDv5swHUaDuqxI4Mo8a/G9KelHRJNhQ8zePcFe4rcacGYIlA8Jnixw3/treBruOOhT4l19Vatfv++DOhuYVR3cWGBvK65ZYwuyFW71mYU+Yp+e5Ppy1oGIQ+Lr6/EKFURVMTBSKzOLToUtuNfzAzBgkqhkiG9w0BBwEwFAYIKoZIhvcNAwcECHC5IvdZSgJvgBCcD/RIBLbVH3FmS+g+seSG" />
       <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountExpiration" value="2014-11-30T23:59:59.0000000+05:30" />
       <Setting name="Microsoft.WindowsAzure.Plugins.RemoteForwarder.Enabled" value="true" />
       <Setting name="Microsoft.WindowsAzure.Plugins.Caching.ClientDiagnosticLevel" value="1" />

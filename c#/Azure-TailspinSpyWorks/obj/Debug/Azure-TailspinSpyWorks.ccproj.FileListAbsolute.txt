@@ -306,32 +306,6 @@ C:\Users\asgoyal\Documents\Visual Studio 2012\Projects\AzurePOC\C#\Azure-Tailspi
 C:\Users\asgoyal\Documents\Visual Studio 2012\Projects\AzurePOC\C#\Azure-TailspinSpyWorks\obj\Debug\Tailspin\bin\Microsoft.WindowsAzure.StorageClient.xml
 C:\Users\asgoyal\Documents\Visual Studio 2012\Projects\AzurePOC\C#\Azure-TailspinSpyWorks\obj\Debug\Tailspin\bin\Tailspin.dll
 C:\Users\asgoyal\Documents\Visual Studio 2012\Projects\AzurePOC\C#\Azure-TailspinSpyWorks\obj\Debug\Tailspin\bin\Tailspin.pdb
-C:\Users\ansharma\Documents\GitHub\TaleSpin\c#\Azure-TailspinSpyWorks\bin\Debug\ServiceConfiguration.cscfg
-C:\Users\ansharma\Documents\GitHub\TaleSpin\c#\Azure-TailspinSpyWorks\bin\Debug\ServiceDefinition.csdef
-C:\Users\ansharma\Documents\GitHub\TaleSpin\c#\Azure-TailspinSpyWorks\obj\Debug\Tailspin\bin\Microsoft.ApplicationServer.Caching.AzureClientHelper.dll
-C:\Users\ansharma\Documents\GitHub\TaleSpin\c#\Azure-TailspinSpyWorks\obj\Debug\Tailspin\bin\Microsoft.ApplicationServer.Caching.AzureCommon.dll
-C:\Users\ansharma\Documents\GitHub\TaleSpin\c#\Azure-TailspinSpyWorks\obj\Debug\Tailspin\bin\Microsoft.ApplicationServer.Caching.AzureCommon.xml
-C:\Users\ansharma\Documents\GitHub\TaleSpin\c#\Azure-TailspinSpyWorks\obj\Debug\Tailspin\bin\Microsoft.ApplicationServer.Caching.Client.dll
-C:\Users\ansharma\Documents\GitHub\TaleSpin\c#\Azure-TailspinSpyWorks\obj\Debug\Tailspin\bin\Microsoft.ApplicationServer.Caching.Client.xml
-C:\Users\ansharma\Documents\GitHub\TaleSpin\c#\Azure-TailspinSpyWorks\obj\Debug\Tailspin\bin\Microsoft.ApplicationServer.Caching.Core.dll
-C:\Users\ansharma\Documents\GitHub\TaleSpin\c#\Azure-TailspinSpyWorks\obj\Debug\Tailspin\bin\Microsoft.ApplicationServer.Caching.Core.xml
-C:\Users\ansharma\Documents\GitHub\TaleSpin\c#\Azure-TailspinSpyWorks\obj\Debug\Tailspin\bin\Microsoft.Web.DistributedCache.dll
-C:\Users\ansharma\Documents\GitHub\TaleSpin\c#\Azure-TailspinSpyWorks\obj\Debug\Tailspin\bin\Microsoft.WindowsAzure.Caching\ClientPerfCountersInstaller.exe
-C:\Users\ansharma\Documents\GitHub\TaleSpin\c#\Azure-TailspinSpyWorks\obj\Debug\Tailspin\bin\Microsoft.WindowsAzure.Caching\ClientPerfCountersInstaller.exe.config
-C:\Users\ansharma\Documents\GitHub\TaleSpin\c#\Azure-TailspinSpyWorks\obj\Debug\Tailspin\bin\Microsoft.WindowsAzure.Caching\PerformanceCounters.xml
-C:\Users\ansharma\Documents\GitHub\TaleSpin\c#\Azure-TailspinSpyWorks\obj\Debug\Tailspin\bin\Microsoft.WindowsAzure.Diagnostics.dll
-C:\Users\ansharma\Documents\GitHub\TaleSpin\c#\Azure-TailspinSpyWorks\obj\Debug\Tailspin\bin\Microsoft.WindowsAzure.Diagnostics.StorageUtility.dll
-C:\Users\ansharma\Documents\GitHub\TaleSpin\c#\Azure-TailspinSpyWorks\obj\Debug\Tailspin\bin\Microsoft.WindowsAzure.Diagnostics.xml
-C:\Users\ansharma\Documents\GitHub\TaleSpin\c#\Azure-TailspinSpyWorks\obj\Debug\Tailspin\bin\Microsoft.WindowsAzure.ServiceRuntime.dll
-C:\Users\ansharma\Documents\GitHub\TaleSpin\c#\Azure-TailspinSpyWorks\obj\Debug\Tailspin\bin\Microsoft.WindowsAzure.ServiceRuntime.xml
-C:\Users\ansharma\Documents\GitHub\TaleSpin\c#\Azure-TailspinSpyWorks\obj\Debug\Tailspin\bin\Microsoft.WindowsAzure.StorageClient.dll
-C:\Users\ansharma\Documents\GitHub\TaleSpin\c#\Azure-TailspinSpyWorks\obj\Debug\Tailspin\bin\Microsoft.WindowsAzure.StorageClient.xml
-C:\Users\ansharma\Documents\GitHub\TaleSpin\c#\Azure-TailspinSpyWorks\obj\Debug\Tailspin\bin\Microsoft.WindowsFabric.Common.dll
-C:\Users\ansharma\Documents\GitHub\TaleSpin\c#\Azure-TailspinSpyWorks\obj\Debug\Tailspin\bin\Microsoft.WindowsFabric.Data.Common.dll
-C:\Users\ansharma\Documents\GitHub\TaleSpin\c#\Azure-TailspinSpyWorks\obj\Debug\Tailspin\bin\System.IdentityModel.Tokens.ValidatingIssuerNameRegistry.dll
-C:\Users\ansharma\Documents\GitHub\TaleSpin\c#\Azure-TailspinSpyWorks\obj\Debug\Tailspin\bin\Tailspin.dll
-C:\Users\ansharma\Documents\GitHub\TaleSpin\c#\Azure-TailspinSpyWorks\obj\Debug\Tailspin\bin\Tailspin.pdb
-C:\Users\ansharma\Documents\GitHub\TaleSpin\c#\Azure-TailspinSpyWorks\obj\Debug\Tailspin\bin\Microsoft.IdentityModel.dll
 C:\Users\asgoyal\Documents\Visual Studio 2012\Projects\TaleSpin-master\c#\Azure-TailspinSpyWorks\bin\Debug\ServiceConfiguration.cscfg
 C:\Users\asgoyal\Documents\Visual Studio 2012\Projects\TaleSpin-master\c#\Azure-TailspinSpyWorks\bin\Debug\ServiceDefinition.csdef
 C:\Users\asgoyal\Documents\Visual Studio 2012\Projects\TaleSpin-master\c#\Azure-TailspinSpyWorks\obj\Debug\Tailspin\bin\Microsoft.ApplicationServer.Caching.AzureClientHelper.dll
@@ -357,3 +331,28 @@ C:\Users\asgoyal\Documents\Visual Studio 2012\Projects\TaleSpin-master\c#\Azure-
 C:\Users\asgoyal\Documents\Visual Studio 2012\Projects\TaleSpin-master\c#\Azure-TailspinSpyWorks\obj\Debug\Tailspin\bin\System.IdentityModel.Tokens.ValidatingIssuerNameRegistry.dll
 C:\Users\asgoyal\Documents\Visual Studio 2012\Projects\TaleSpin-master\c#\Azure-TailspinSpyWorks\obj\Debug\Tailspin\bin\Tailspin.dll
 C:\Users\asgoyal\Documents\Visual Studio 2012\Projects\TaleSpin-master\c#\Azure-TailspinSpyWorks\obj\Debug\Tailspin\bin\Tailspin.pdb
+C:\Users\ansharma\Documents\GitHub\TaleSpin\c#\Azure-TailspinSpyWorks\bin\Debug\ServiceConfiguration.cscfg
+C:\Users\ansharma\Documents\GitHub\TaleSpin\c#\Azure-TailspinSpyWorks\bin\Debug\ServiceDefinition.csdef
+C:\Users\ansharma\Documents\GitHub\TaleSpin\c#\Azure-TailspinSpyWorks\obj\Debug\Tailspin\bin\Microsoft.ApplicationServer.Caching.AzureClientHelper.dll
+C:\Users\ansharma\Documents\GitHub\TaleSpin\c#\Azure-TailspinSpyWorks\obj\Debug\Tailspin\bin\Microsoft.ApplicationServer.Caching.AzureCommon.dll
+C:\Users\ansharma\Documents\GitHub\TaleSpin\c#\Azure-TailspinSpyWorks\obj\Debug\Tailspin\bin\Microsoft.ApplicationServer.Caching.Client.dll
+C:\Users\ansharma\Documents\GitHub\TaleSpin\c#\Azure-TailspinSpyWorks\obj\Debug\Tailspin\bin\Microsoft.ApplicationServer.Caching.Core.dll
+C:\Users\ansharma\Documents\GitHub\TaleSpin\c#\Azure-TailspinSpyWorks\obj\Debug\Tailspin\bin\Microsoft.IdentityModel.dll
+C:\Users\ansharma\Documents\GitHub\TaleSpin\c#\Azure-TailspinSpyWorks\obj\Debug\Tailspin\bin\Microsoft.Web.DistributedCache.dll
+C:\Users\ansharma\Documents\GitHub\TaleSpin\c#\Azure-TailspinSpyWorks\obj\Debug\Tailspin\bin\Microsoft.WindowsAzure.Caching\ClientPerfCountersInstaller.exe
+C:\Users\ansharma\Documents\GitHub\TaleSpin\c#\Azure-TailspinSpyWorks\obj\Debug\Tailspin\bin\Microsoft.WindowsAzure.Caching\ClientPerfCountersInstaller.exe.config
+C:\Users\ansharma\Documents\GitHub\TaleSpin\c#\Azure-TailspinSpyWorks\obj\Debug\Tailspin\bin\Microsoft.WindowsAzure.Caching\PerformanceCounters.xml
+C:\Users\ansharma\Documents\GitHub\TaleSpin\c#\Azure-TailspinSpyWorks\obj\Debug\Tailspin\bin\Microsoft.WindowsAzure.Diagnostics.dll
+C:\Users\ansharma\Documents\GitHub\TaleSpin\c#\Azure-TailspinSpyWorks\obj\Debug\Tailspin\bin\Microsoft.WindowsAzure.Diagnostics.StorageUtility.dll
+C:\Users\ansharma\Documents\GitHub\TaleSpin\c#\Azure-TailspinSpyWorks\obj\Debug\Tailspin\bin\Microsoft.WindowsAzure.ServiceRuntime.dll
+C:\Users\ansharma\Documents\GitHub\TaleSpin\c#\Azure-TailspinSpyWorks\obj\Debug\Tailspin\bin\Microsoft.WindowsAzure.StorageClient.dll
+C:\Users\ansharma\Documents\GitHub\TaleSpin\c#\Azure-TailspinSpyWorks\obj\Debug\Tailspin\bin\Microsoft.WindowsFabric.Common.dll
+C:\Users\ansharma\Documents\GitHub\TaleSpin\c#\Azure-TailspinSpyWorks\obj\Debug\Tailspin\bin\Microsoft.WindowsFabric.Data.Common.dll
+C:\Users\ansharma\Documents\GitHub\TaleSpin\c#\Azure-TailspinSpyWorks\obj\Debug\Tailspin\bin\System.IdentityModel.Tokens.ValidatingIssuerNameRegistry.dll
+C:\Users\ansharma\Documents\GitHub\TaleSpin\c#\Azure-TailspinSpyWorks\obj\Debug\Tailspin\bin\Tailspin.dll
+C:\Users\ansharma\Documents\GitHub\TaleSpin\c#\Azure-TailspinSpyWorks\obj\Debug\Tailspin\bin\Tailspin.pdb
+C:\Users\ansharma\Documents\GitHub\TaleSpin\c#\Azure-TailspinSpyWorks\obj\Debug\Tailspin\bin\Microsoft.ApplicationServer.Caching.AzureCommon.xml
+C:\Users\ansharma\Documents\GitHub\TaleSpin\c#\Azure-TailspinSpyWorks\obj\Debug\Tailspin\bin\Microsoft.ApplicationServer.Caching.Client.xml
+C:\Users\ansharma\Documents\GitHub\TaleSpin\c#\Azure-TailspinSpyWorks\obj\Debug\Tailspin\bin\Microsoft.ApplicationServer.Caching.Core.xml
+C:\Users\ansharma\Documents\GitHub\TaleSpin\c#\Azure-TailspinSpyWorks\obj\Debug\Tailspin\bin\Microsoft.WindowsAzure.Diagnostics.xml
+C:\Users\ansharma\Documents\GitHub\TaleSpin\c#\Azure-TailspinSpyWorks\obj\Debug\Tailspin\bin\Microsoft.WindowsAzure.StorageClient.xml

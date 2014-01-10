@@ -13,5 +13,10 @@
     <DeploymentLabel>Azure-TailspinSpyWorks - 13/7/2011 2:55:04 PM</DeploymentLabel>
     <DeploymentPromptBeforeDeleting>True</DeploymentPromptBeforeDeleting>
     <DeploymentIsExpanded>False</DeploymentIsExpanded>
+    <PackageProfile>Default</PackageProfile>
+    <PackageSolutionConfiguration>Release</PackageSolutionConfiguration>
+    <PackageEnableRemoteDesktop>True</PackageEnableRemoteDesktop>
+    <RemoteDesktopMoreOptions>False</RemoteDesktopMoreOptions>
+    <ActivePublishProfile>Online StoreProduction</ActivePublishProfile>
   </PropertyGroup>
 </Project>

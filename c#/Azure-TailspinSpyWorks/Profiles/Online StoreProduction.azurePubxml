@@ -1,14 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <AzureCredentials>Online Store</AzureCredentials>
+    <AzureCredentials>Visual Studio Ultimate with MSDN</AzureCredentials>
     <AzureDeploymentLabel>Azure-TailspinSpyWorks - 13/7/2011 2:55:04 PM</AzureDeploymentLabel>
     <AzureSlot>Production</AzureSlot>
     <AzureEnableWebDeploy>False</AzureEnableWebDeploy>
-    <AzureHostedServiceName>tailpin</AzureHostedServiceName>
-    <AzureHostedServiceLabel>Online Store</AzureHostedServiceLabel>
+    <AzureHostedServiceName>FlipBayZon</AzureHostedServiceName>
+    <AzureHostedServiceLabel>FlipBayZon</AzureHostedServiceLabel>
     <AzureEnableIntelliTrace>False</AzureEnableIntelliTrace>
-    <AzureStorageAccountName>faizal</AzureStorageAccountName>
-    <AzureStorageAccountLabel>faizal</AzureStorageAccountLabel>
+    <AzureStorageAccountName>sqlpoc</AzureStorageAccountName>
+    <AzureStorageAccountLabel>sqlpoc</AzureStorageAccountLabel>
+    <AzureDeleteDeploymentOnFailure>False</AzureDeleteDeploymentOnFailure>
+    <AzureDeploymentReplacementMethod>AutomaticUpgrade</AzureDeploymentReplacementMethod>
+    <AzureEnableRemoteDesktop>True</AzureEnableRemoteDesktop>
+    <AzureFallbackToDeleteAndRecreateIfUpgradeFails>False</AzureFallbackToDeleteAndRecreateIfUpgradeFails>
+    <AzureEnableProfiling>False</AzureEnableProfiling>
+    <AzureServiceConfiguration>Default</AzureServiceConfiguration>
+    <AzureSolutionConfiguration>Debug</AzureSolutionConfiguration>
+    <AzureAppendTimestampToDeploymentLabel>True</AzureAppendTimestampToDeploymentLabel>
   </PropertyGroup>
 </Project>

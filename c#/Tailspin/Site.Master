@@ -13,7 +13,7 @@
     </style>
 </head>
 <body>
-    <form runat="server" id="MyForm">
+    <form runat="server" id="MyForm" action ="Default.aspx" >
         <%--<div id="banner" style="background-image: url(/Styles/Images/bing2.jpg); background-repeat: no-repeat; background-size: cover">--%>
         <div id="Div1" style="background-color: honeydew ; background-repeat: no-repeat; background-size: cover">
             <div id="header" style="background-color: #005387">
@@ -21,7 +21,7 @@
                     <h1>FlipBayZon</h1>
                 </div>
 
-                <div style="float: right; vertical-align: middle; height: 99px; width: 254px;">
+                <div style="float: right; vertical-align: middle; height: 99px; width: 254px;"> 
                     <br />
                     <br />
                     <br />
@@ -37,7 +37,7 @@
                               <td align="center" class="auto-style1">
                                 <a id="A1" href="~/Account/Login.aspx" runat="server" class="SiteLinkBold">
                                     <img id="Img1" src="~/Styles/Images/sign_in.gif" alt="" runat="server" /><br />
-                                    <asp:LoginView ID="MenuLoginView" runat="server" EnableViewState="false">
+                                    <asp:LoginView ID="MenuLoginView" runat="server" >
                                         <AnonymousTemplate>
                                             Sign In									
                                         </AnonymousTemplate>
